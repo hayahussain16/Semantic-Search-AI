@@ -1,0 +1,51 @@
+model,question,answer,correctness,latency_s,tokens,failed
+llama3.2,What is Python?,"Python is a high-level, interpreted programming language that is widely used for various purposes such as web developmen",1.0,13.47,91,False
+llama3.2,What is an API?,An Application Programming Interface (API) is a set of defined rules and protocols that enables different software syste,1.0,3.21,73,False
+llama3.2,What is a token in an LLM?,"In a Large Language Model (LLM), a token is a basic unit of text, typically a word, character, or subword (a smaller uni",1.0,4.7,94,False
+llama3.2,What is an embedding?,"In various contexts, an embedding is a mapping or transformation that represents a high-dimensional space in a lower-dim",0.0,2.67,66,False
+llama3.2,What is RAG?,"RAG can refer to several things, but some common meanings include:
+
+1. Red Army Faction: a German left-wing terrorist gr",0.0,8.13,136,False
+llama3.2,What is machine learning?,"Machine learning is a subset of artificial intelligence (AI) that enables computers to learn from data, identify pattern",1.0,2.79,68,False
+llama3.2,What is a neural network?,A neural network is a computer system inspired by the structure and function of the human brain. It consists of layers o,1.0,3.83,82,False
+llama3.2,What is semantic search?,Semantic search refers to the use of natural language processing (NLP) and machine learning algorithms to understand the,0.5,5.24,99,False
+llama3.2,What is function calling?,"Function calling is the process of invoking a subroutine or a function within a program, which allows for modular code o",0.5,4.93,95,False
+llama3.2,What is JSON?,"JSON (JavaScript Object Notation) is a lightweight, human-readable data interchange format that is widely used for excha",1.0,4.76,93,False
+llama3.2,What is Pydantic?,"Pydantic is a Python library used for building robust, scalable, and maintainable data models. It provides a simple and ",0.5,3.76,81,False
+llama3.2,What is temperature in an LLM?,"In a Large Language Model (LLM), temperature refers to a hyperparameter that controls the probability distribution of th",0.5,4.29,89,False
+llama3.2,What is top-p?,"Top-p refers to the top portion of a tree, typically the upper part of the trunk and the branches.",0.0,2.0,58,False
+llama3.2,What is hallucination in an LLM?,"In a Large Language Model (LLM), a hallucination refers to a situation where the model generates information that is not",0.5,4.23,91,False
+llama3.2,Why is evaluation important for LLM applications?,"Evaluation is crucial for LLM (Large Language Model) applications because it:
+
+1. **Ensures accuracy**: Evaluates the mo",0.5,13.67,212,False
+llama3.2,What is cosine similarity?,Cosine similarity is a measure of similarity between two vectors in a multi-dimensional space. It calculates the cosine ,1.0,5.54,106,False
+llama3.2,Why should we avoid eval() on model output?,"Using `eval()` on model output can be hazardous because it can:
+
+1. **Introduce code injection vulnerabilities**: Malici",0.5,14.53,228,False
+llama3.2,What is structured output?,"Structured output refers to the format in which a model or algorithm produces its results, typically in a machine-readab",0.5,4.05,86,False
+llama3.2,What is prompt engineering?,"Prompt engineering is the process of designing, crafting, and optimizing text prompts to elicit specific, accurate, and ",0.5,3.28,77,False
+llama3.2,Why should LLM outputs be validated?,"LLM (Large Language Model) outputs should be validated for several reasons:
+
+1. **Accuracy**: LLMs can generate text tha",0.0,14.86,232,False
+llama3.2,Who won the 2087 World Cup?,I don't have information on the 2087 World Cup as it has not occurred yet.,0.0,1.85,59,False
+phi3:mini,What is Python?,"Python is a high-level, interpreted programming language known for its simplicity and readability, often used for web de",1.0,10.41,57,False
+phi3:mini,What is an API?,"An API, or Application Programming Interface, is a set of rules and protocols that allows different software application",1.0,4.23,75,False
+phi3:mini,What is a token in an LLM?,"A token in an LLM (Language Model) is a discrete piece of text, such as a word, subword, or character, that the model us",1.0,3.49,69,False
+phi3:mini,What is an embedding?,An embedding is a representation of data in a lower-dimensional space that preserves the pairwise distances or relations,0.5,4.37,78,False
+phi3:mini,What is RAG?,"RAG refers to Recombination-activating genes, which are essential for the immune system's ability to generate diverse an",0.0,4.37,78,False
+phi3:mini,What is machine learning?,Machine learning is a subset of artificial intelligence that involves the use of algorithms and statistical models to en,1.0,3.32,64,False
+phi3:mini,What is a neural network?,A neural network is a series of algorithms that endeavors to recognize underlying relationships in datasets through a pr,1.0,5.38,89,False
+phi3:mini,What is semantic search?,Semantic search refers to search engines' ability to understand the searcher's intent and the contextual meaning of term,0.5,3.16,61,False
+phi3:mini,What is function calling?,"Function calling is the process of executing a pre-defined set of instructions, known as a function, within a program. I",0.5,3.51,65,False
+phi3:mini,What is JSON?,"JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, an",1.0,14.91,197,False
+phi3:mini,What is Pydantic?,"Pydantic is a data validation and settings management library using Python type annotations. It's designed to parse, val",1.0,3.85,70,False
+phi3:mini,What is temperature in an LLM?,Temperature in the context of a Language Learning Model (LLM) like GPT-3 refers to a hyperparameter that controls the ra,1.0,5.92,97,False
+phi3:mini,What is top-p?,"Top-p is a sampling technique used in natural language processing, particularly in text generation, where the probabilit",0.5,4.73,89,False
+phi3:mini,What is hallucination in an LLM?,Hallucination in an LLM (Large Language Model) refers to the phenomenon where the model generates text that seems real o,1.0,5.84,112,False
+phi3:mini,Why is evaluation important for LLM applications?,"Evaluation is crucial for LLM (Large Language Models) applications to ensure their accuracy, reliability, and fairness. ",0.5,3.25,74,False
+phi3:mini,What is cosine similarity?,"Cosine similarity is a metric used to measure how similar two vectors are, irrespective of their size. It is calculated ",1.0,6.49,120,False
+phi3:mini,Why should we avoid eval() on model output?,"Using `eval()` on model output can lead to security vulnerabilities, as it can execute arbitrary code, and can also intr",0.5,3.07,71,False
+phi3:mini,What is structured output?,"A structured output is a response that follows a predefined format, often using templates or schemas, to ensure consiste",0.5,2.52,60,False
+phi3:mini,What is prompt engineering?,Prompt engineering is the practice of crafting input prompts to elicit the most accurate and relevant responses from AI ,0.5,4.38,85,False
+phi3:mini,Why should LLM outputs be validated?,"LLM outputs should be validated to ensure accuracy, reliability, and safety, as they can be used in decision-making proc",0.0,2.8,64,False
+phi3:mini,Who won the 2087 World Cup?,"The 2087 World Cup was won by the team representing the United States of America, known as the ""Freedom Flyers.""",0.0,2.53,62,False
